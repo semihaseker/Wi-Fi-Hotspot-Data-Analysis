@@ -1,78 +1,105 @@
-# 📶 Wi-Fi Hotspot Analysis & Classification
+# 📶 Wi-Fi Hotspot Data Analysis
 
-This project focuses on performing a comprehensive **Exploratory Data Analysis (EDA)** and building a **Machine Learning model** to analyze and classify Wi-Fi hotspots in various neighborhoods. The study covers the entire data science pipeline: from synthetic data generation and outlier handling to predictive modeling.
+This project focuses on analyzing Wi-Fi hotspot data to discover patterns,
+trends, and insights using Python and data analysis techniques.
 
-##  Project Objective
+---
 
-The goal is to understand the distribution of Wi-Fi services across different regions, handle data quality issues (outliers/missing values), and develop a **Logistic Regression** model to predict whether a hotspot is "Free" based on its technical and geographical attributes.
+## 📊 Project Overview
 
-##  Tech Stack
+The main goal of this project is to explore public Wi-Fi hotspot usage and
+availability, and understand how it varies across different locations and
+time periods.
 
-* **Language:** Python
-* **Libraries:** - `Pandas` & `NumPy` (Data Manipulation)
-* `Matplotlib` & `Seaborn` (Data Visualization)
-* `Scikit-learn` (Machine Learning & Preprocessing)
+---
+
+## 📁 Dataset
+
+- Source: Public Wi-Fi hotspot dataset
+- Format: CSV
+- Records: Multiple locations and usage data
+
+---
+
+## ⚙️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+## 🔍 Analysis Steps
+
+1. Data loading and inspection
+2. Data cleaning and preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Visualization of key trends
+5. Interpretation of results
+
+---
+
+## 📈 Key Insights
+
+- Distribution of Wi-Fi hotspots by location
+- Usage patterns across time
+- Comparison of free vs paid hotspots
+- High-density hotspot areas
+
+---
+
+## 🖼 Sample Visualizations
+
+### 📊 Distribution of Wi-Fi Speed
+![Speed Distribution](images/speed_distribution.png)
+
+### 🏙️ Hotspots per Neighborhood
+![Neighborhood](images/hotspots_neighborhood.png)
+
+### 🌍 Geographical Distribution of Hotspots
+![Map](images/geographical_distribution.png)
+
+### 📦 Outlier Detection in Speed
+![Outliers](images/outlier_boxplot.png)
+
+> 📌 Note: No missing values were found in the dataset.
 
 
 
-##  Key Features of the Analysis
+---
 
-The project includes several critical data processing steps:
+## ▶️ How to Run
 
-1. **Synthetic Data Generation:** Simulating real-world scenarios with 200 observations and 6 attributes.
-2. **Exploratory Data Analysis (EDA):**
-* Statistical summaries and correlation checks.
-* Analysis of Wi-Fi speeds across different providers and neighborhoods.
-
-
-3. **Advanced Visualization:**
-* Distribution plots for internet speeds.
-* Geographical scatter plots showing hotspot density.
-* Heatmaps for missing value detection.
-
-
-4. **Data Cleaning:**
-* **Outlier Detection:** Identified extreme speed values using **Boxplots**.
-* **Handling Strategies:** Compared "Median Replacement" vs "Row Removal" methods.
-* **Imputation:** Categorical missing values in the 'provider' column were handled using "Unknown" labeling.
-
-
-
-## Machine Learning Model
-
-A **Logistic Regression** classifier was implemented to distinguish between "Free" and "Paid/Limited" connections.
-
-* **Preprocessing:** Label Encoding for categorical variables.
-* **Evaluation:** The model achieves a significant recall rate for identifying free hotspots, demonstrating a complete end-to-end classification workflow.
-
-## Project Structure
-
-```bash
-├── AID_Project.ipynb    # Main Jupyter Notebook containing all code and analysis
-├── README.md            # Project documentation
-└── (Data is generated within the notebook)
-
-```
-
-## How to Run
-
-1. Clone the repository:
-```bash
-git clone https://github.com/semihaseker/wifi-hotspot-analysis.git
-
-```
-
-
+1. Clone the repository
 2. Install dependencies:
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+pip install -r requirements.txt
+
+```
+3. Open the notebook:
+```
+
+jupyter notebook
 
 ```
 
+---
 
-3. Open `AID_Project.ipynb` in Jupyter Notebook or VS Code and run all cells.
+## 🎯 Future Improvements
 
-## Contributors
+- Build an interactive dashboard
+- Add predictive modeling
+- Include more datasets
+- Deploy using Streamlit
 
-* **Hana Bubalo**
-* **Semiha Seker**
+---
+
+## 👩‍💻 Author
+
+**Semih Aseker**  
+GitHub: https://github.com/semihaseker
+```
