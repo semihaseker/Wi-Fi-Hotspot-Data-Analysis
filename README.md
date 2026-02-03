@@ -65,6 +65,7 @@ time periods.
 ### 📦 Outlier Detection in Speed
 ![Outliers](images/outlier_boxplot.png)
 
+
 > 📌 Note: No missing values were found in the dataset.
 
 
