@@ -111,7 +111,8 @@ jupyter notebook
 ---
 
 ## 👩‍💻 Author
-
+  Semiha Şeker
 🔗 GitHub: https://github.com/semihaseker  
-💼 LinkedIn: (linkin varsa buraya ekle)
+
+Hana Bubalo
 
