@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+
 # 📶 Wi-Fi Hotspot Data Analysis
 
 This project focuses on analyzing Wi-Fi hotspot data to discover patterns,
@@ -42,12 +46,14 @@ time periods.
 
 ---
 
-## 📈 Key Insights
+## 📌 Key Insights
 
-- Distribution of Wi-Fi hotspots by location
-- Usage patterns across time
-- Comparison of free vs paid hotspots
-- High-density hotspot areas
+- Most Wi-Fi hotspots are concentrated in central neighborhoods.
+- Average connection speed ranges between 40–60 Mbps.
+- A few extreme outliers (above 800 Mbps) were detected.
+- Free hotspots are more widely available than paid ones.
+- No missing values were found in the dataset.
+
 
 ---
 
@@ -66,27 +72,32 @@ time periods.
 ![Outliers](images/outlier_boxplot.png)
 
 
-> 📌 Note: No missing values were found in the dataset.
-
 
 
 ---
 
 ## ▶️ How to Run
 
-1. Clone the repository
+````md
+
+1. Clone the repository:
+```bash
+git clone https://github.com/semihaseker/Wi-Fi-Hotspot-Data-Analysis.git
+````
+
 2. Install dependencies:
-```
 
+```bash
 pip install -r requirements.txt
-
 ```
+
 3. Open the notebook:
-```
 
+```bash
 jupyter notebook
-
 ```
+
+4. Run `AID_Project.ipynb` in your browser.
 
 ---
 
@@ -101,6 +112,6 @@ jupyter notebook
 
 ## 👩‍💻 Author
 
-**Semih Aseker**  
-GitHub: https://github.com/semihaseker
-```
+🔗 GitHub: https://github.com/semihaseker  
+💼 LinkedIn: (linkin varsa buraya ekle)
+
